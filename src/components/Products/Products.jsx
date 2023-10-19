@@ -123,8 +123,8 @@ function Products({ showModal, setShowModal }) {
               />
 
               <Carousel.Caption className={css.carouselCaption}>
-                <p>Los mejores productos hechos a mano</p>
-                <h2>Nueva Colección Handmade</h2>
+                <p>Los mejores uniformes 100% mano de obra uruguaya</p>
+                <h2>Camisas de vestir</h2>
                 <button className={`btn ${css.bannerBtn}`}>Comprar ahora</button>
               </Carousel.Caption>
             </Carousel.Item>

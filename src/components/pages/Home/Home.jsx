@@ -111,8 +111,8 @@ function Home({ showModal, setShowModal }) {
               />
               <Carousel.Caption className={css.carouselCaption}>
                 <p className="fs-5">Lo más vendido</p>
-                <h2 className="fs-1">Colección Madera Moderna</h2>
-                <Link to={"product/Cajas-de-Madera-Hexagonales"}>
+                <h2 className="fs-1">Pantalones cargo</h2>
+                <Link to={"product/Pantalones-Cargo"}>
                   <button className={`btn ${css.bannerBtn}`}>Comprar ahora</button>
                 </Link>
               </Carousel.Caption>
@@ -126,8 +126,8 @@ function Home({ showModal, setShowModal }) {
               />
 
               <Carousel.Caption className={css.carouselCaption}>
-                <p className="fs-5">Los mejores productos hechos a mano</p>
-                <h2 className="fs-1">Nueva Colección Handmade</h2>
+                <p className="fs-5">Calidad inigualable, 100% mano de obra uruguaya</p>
+                <h2 className="fs-1">Camisas de vestir</h2>
                 <Link to={"product/Carrito-de-Madera"}>
                   <button className={`btn ${css.bannerBtn}`}>Comprar ahora</button>
                 </Link>
@@ -177,9 +177,9 @@ function Home({ showModal, setShowModal }) {
               <div className={`col-12 col-lg-6 ${css.displayOffer}`}>
                 <img src="/img/subBanner.webp" alt="" className="img-fluid" draggable="false" />
                 <div className="">
-                  <p className="fs-5 mb-2">35% off</p>
-                  <h3>Especial Nórdico Matte</h3>
-                  <Link to={"product/Set-de-Madera-Nórdica"}>
+                  <p className="fs-5 mb-2">15% off</p>
+                  <h3>Mameluco inifugo</h3>
+                  <Link to={"product/mameluco-inifugo"}>
                     <button className={`btn ${css.bannerBtn}`}>Comprar ahora</button>
                   </Link>
                 </div>
@@ -187,9 +187,9 @@ function Home({ showModal, setShowModal }) {
               <div className={`col-12 col-lg-6 ${css.displayOffer}`}>
                 <img src="/img/subBanner2.webp" alt="" className="img-fluid" draggable="false" />
                 <div>
-                  <p className="fs-5 mb-2">25% off</p>
-                  <h3>Terra Punto Cotta</h3>
-                  <Link to={"product/Terra-Punto-Cotta"}>
+                  <p className="fs-5 mb-2">10% off</p>
+                  <h3>Buzo polar medio cierre</h3>
+                  <Link to={"product/buzo-polar-medio-cierre"}>
                     <button className={`btn ${css.bannerBtn}`}>Comprar ahora</button>
                   </Link>
                 </div>
@@ -204,8 +204,8 @@ function Home({ showModal, setShowModal }) {
             )}
 
             <div className="mt-5 mb-5 ms-2">
-              <h3 className="pt-5 pb-4 d-inline fs-2" id="pinturas">
-                Pinturas
+              <h3 className="pt-5 pb-4 d-inline fs-2" id="remeras">
+                Remeras
               </h3>
               <Link to={"/categories/1"} className={css.categoryLink}>
                 ver todos <i className="bi bi-arrow-right-short"></i>
