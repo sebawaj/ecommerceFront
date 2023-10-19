@@ -213,7 +213,7 @@ function Home({ showModal, setShowModal }) {
             </div>
             {showProducts(productsFromCategory1)}
             <div className="mt-5 mb-5 ms-2">
-              <h3 className="pt-5 pb-4 d-inline fs-2" id="ceramicas">
+              <h3 className="pt-5 pb-4 d-inline fs-2" id="remeras">
                 Cerámicas
               </h3>
               <Link to={"/categories/2"} className={css.categoryLink}>

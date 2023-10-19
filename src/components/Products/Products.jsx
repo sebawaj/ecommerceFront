@@ -18,6 +18,8 @@ function Products({ showModal, setShowModal }) {
   const [productsFromCategory3, setProductsFromCategory3] = useState([]);
   const [productsFromCategory4, setProductsFromCategory4] = useState([]);
   const [productsFromCategory5, setProductsFromCategory5] = useState([]);
+  const [productsFromCategory6, setProductsFromCategory6] = useState([]);
+  const [productsFromCategory7, setProductsFromCategory7] = useState([]);
 
   useEffect(() => {
     const getProducts = async () => {
@@ -58,6 +60,14 @@ function Products({ showModal, setShowModal }) {
         });
         const response6 = await axios({
           method: "get",
+          url: `${process.env.REACT_APP_API_BASE_URL}/products?categoryId=6`,
+        });
+        const response7 = await axios({
+          method: "get",
+          url: `${process.env.REACT_APP_API_BASE_URL}/products?categoryId=7`,
+        });
+        const response8 = await axios({
+          method: "get",
           url: `${process.env.REACT_APP_API_BASE_URL}/categories`,
         });
 
@@ -66,7 +76,10 @@ function Products({ showModal, setShowModal }) {
         setProductsFromCategory3(response3.data);
         setProductsFromCategory4(response4.data);
         setProductsFromCategory5(response5.data);
-        setCategories(response6.data);
+        setProductsFromCategory6(response6.data);
+        setProductsFromCategory7(response7.data);
+
+        setCategories(response8.data);
       } catch (error) {
         console.log(error);
       }
@@ -178,6 +191,8 @@ function Products({ showModal, setShowModal }) {
             {showProducts(productsFromCategory3)}
             {showProducts(productsFromCategory4)}
             {showProducts(productsFromCategory5)}
+            {showProducts(productsFromCategory6)}
+            {showProducts(productsFromCategory7)}
           </div>
         </main>
         <Newsletter />
