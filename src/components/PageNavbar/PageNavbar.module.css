@@ -1,0 +1,116 @@
+#mainBar {
+  height: 3rem;
+}
+
+#categoryBar {
+  height: 2rem;
+  width: 50vw;
+}
+
+#categoryBar > div {
+  justify-content: space-evenly !important;
+}
+
+#sobreEsteProyecto {
+  position: fixed;
+  z-index: 2;
+  border-radius: 0px 0px 2rem 0px;
+  padding-left: 0.5rem;
+  background-color: var(--accent);
+  color: white !important;
+  font-size: large;
+}
+
+#sobreEsteProyecto:hover {
+  transition: all 0.4s ease-in;
+  transform: scale(1.05);
+  filter: brightness(95%);
+}
+
+#search {
+  margin-right: 2rem;
+}
+
+#form {
+  width: 100%;
+}
+
+.searchIcon {
+  right: 4rem;
+  bottom: 0.5rem;
+}
+
+.icon {
+  color: var(--accent);
+  font-size: xx-large;
+  padding-bottom: 1rem;
+}
+
+.navLogo {
+  width: 13rem;
+}
+
+#button {
+  background-color: var(--tertiary) !important;
+  color: white !important;
+  border: none;
+  width: 7rem;
+  font-size: small;
+}
+
+#button:hover {
+  background-color: var(--accent) !important;
+}
+
+@media (max-width: 991px) {
+  #mainBar > * > img {
+    padding-left: 2.5rem;
+  }
+
+  #categoryBar {
+    border-top: 1px solid rgba(143, 143, 143, 0.3);
+    width: 100vw;
+    height: 13rem;
+    margin-top: 1rem;
+  }
+
+  #categoryBar > * > * {
+    border-bottom: 1px solid rgba(174, 174, 174, 0.297);
+    width: 90vw;
+  }
+
+  #form {
+    width: 70%;
+  }
+
+  .navLogo {
+    margin-left: 1rem;
+    margin-top: 0;
+    width: 10rem;
+  }
+
+  #icons {
+    position: absolute;
+    right: 5.2rem;
+    top: 3.5rem;
+    flex-direction: row;
+  }
+  .icon {
+    width: 1rem;
+    margin-left: 1rem;
+    font-size: large !important;
+  }
+
+  .open {
+    height: 6rem !important;
+  }
+
+  .noDisplay {
+    display: none;
+  }
+}
+
+.profileImg {
+  width: 2.5rem;
+  border: 3px solid var(--accent);
+}

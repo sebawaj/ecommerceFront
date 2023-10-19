@@ -1,0 +1,17 @@
+#continue-btn {
+  background-color: #9ea190;
+}
+
+#continue-btn:hover {
+  background-color: #848c7c;
+}
+.product-img {
+  height: 5rem;
+  width: 5rem;
+}
+.ps-9 {
+  padding-left: 9rem !important;
+}
+.pe-9 {
+  padding-right: 9rem !important;
+}

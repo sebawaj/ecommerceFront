@@ -1,0 +1,17 @@
+.profileImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#topBanner {
+  background-image: url(tom-crew-YA2E3d7a9Wo-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 13rem;
+}
+
+#userProfile {
+  background-color: var(--tertiary);
+}

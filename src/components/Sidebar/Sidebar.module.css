@@ -1,0 +1,53 @@
+.botonAdmin {
+  left: 0;
+  top: 0;
+  z-index: 1040;
+  display: inline-block;
+  width: 100px;
+}
+
+.volver {
+  color: beige;
+  position: absolute;
+  top: 82vh;
+  font-size: large;
+  text-decoration: none;
+}
+
+.adminButtons {
+  color: black;
+  padding: 1rem;
+  color: whitesmoke;
+  font-size: medium;
+  cursor: pointer;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+.adminButtons:hover {
+  background-color: var(--tertiary);
+}
+
+#menu {
+  background-color: #848c7c;
+  border-color: #9ea190;
+  height: 92vh;
+  position: fixed;
+}
+
+#menu span {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.menu .menuDashboard .open span {
+  display: block;
+  transition: opacity 0.3s ease;
+  width: auto;
+}
+
+.iconos {
+  margin-right: 0.5rem;
+  color: white;
+}

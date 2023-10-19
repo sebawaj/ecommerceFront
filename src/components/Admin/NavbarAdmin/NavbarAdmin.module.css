@@ -1,0 +1,23 @@
+#mainBar {
+  height: 3rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+@media (max-width: 991px) {
+  #mainBar {
+    height: 2rem;
+  }
+
+  #mainBar > * > img {
+    padding-left: 2.5rem;
+  }
+}
+
+.icon {
+  color: var(--accent);
+}
+
+.navLogo {
+  width: 10rem;
+}

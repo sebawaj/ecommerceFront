@@ -1,0 +1,92 @@
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 70vh !important;
+}
+
+#btn {
+  background-color: var(--primary);
+  font-weight: 200 !important;
+  color: white;
+}
+#btn:hover {
+  background-color: var(--secondary);
+}
+#reviewsContainer {
+  width: 500px;
+}
+
+.loading {
+  width: 30px;
+  height: 30px;
+}
+
+.bigLoading {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+.carouselImage {
+  border-radius: 2rem;
+}
+
+.stars {
+  color: var(--accent);
+}
+
+.priceBefore {
+  color: var(--primary);
+  font-weight: 300;
+  text-decoration: line-through;
+}
+
+.badge {
+  width: 10rem;
+  font-size: small !important;
+  font-weight: 300 !important;
+  background-color: var(--tertiary);
+  color: var(--dark) !important;
+}
+#buttonReview {
+  background-color: var(--secondary);
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+#buttonReview:hover {
+  background-color: var(--primary);
+}
+#buttonLogin {
+  background-color: var(--tertiary) !important;
+  color: white !important;
+  border: none;
+  width: 7rem;
+  font-size: small;
+}
+
+#buttonLogin:hover {
+  background-color: var(--accent) !important;
+}
+
+.barra-filtrar {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  width: 30rem;
+}
+
+.botonLupa {
+  display: none;
+  color: white;
+}
+.rightBottomZero {
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.toast {
+  background-color: var(--accent);
+  height: 1rem;
+}

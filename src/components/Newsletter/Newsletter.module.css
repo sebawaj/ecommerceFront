@@ -1,0 +1,35 @@
+.newsletter {
+  height: 15rem;
+  background-image: url(/public/img/newsletter.webp);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+  background-attachment: fixed;
+}
+
+#button {
+  background-color: var(--tertiary) !important;
+  color: white !important;
+  border: none;
+  width: 7rem;
+  font-size: small;
+}
+
+#button:hover {
+  background-color: var(--accent) !important;
+}
+
+#buttonLogged {
+  background-color: var(--tertiary) !important;
+  color: white !important;
+  border: none;
+}
+
+#buttonLogged:hover {
+  background-color: var(--accent) !important;
+}
+
+.iconsend {
+  color: var(--primary) !important;
+}

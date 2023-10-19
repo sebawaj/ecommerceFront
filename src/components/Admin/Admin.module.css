@@ -1,0 +1,63 @@
+#background {
+  padding: 0;
+  background-image: url(/public/img/topBanner.jpg);
+  height: 88.1vh;
+  background-size: 100vw;
+}
+
+.buttons {
+  text-decoration: none;
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+}
+
+.tituloContainer {
+  color: white;
+  display: inline;
+}
+
+.backgroundTop {
+  padding: 0;
+  background-color: var(--tertiary);
+  min-height: 100vh;
+}
+
+.header {
+  padding-top: 1.5rem;
+}
+
+.table {
+  background-color: white;
+}
+
+.productImg {
+  width: 100px;
+}
+
+.userAvatar {
+  width: 50px;
+}
+.categoryImg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.adminButton {
+  background-color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+
+.adminButton:hover {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}

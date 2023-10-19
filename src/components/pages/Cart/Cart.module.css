@@ -1,0 +1,36 @@
+.productImage {
+  max-width: 8rem;
+  max-height: 8rem;
+}
+
+#btn-continue-buying {
+  background-color: var(--tertiary);
+}
+
+#btn-continue-buying:hover {
+  background-color: #8d927a;
+}
+
+#topBanner {
+  background-image: url(tom-crew-YA2E3d7a9Wo-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 13rem;
+}
+
+#continue-btn {
+  background-color: var(--tertiary);
+}
+
+#continue-btn:hover {
+  background-color: #848c7c;
+}
+
+.ps9 {
+  padding-left: 9rem !important;
+}
+
+.pe9 {
+  padding-right: 9rem !important;
+}

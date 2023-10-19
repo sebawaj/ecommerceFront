@@ -1,0 +1,9 @@
+.rightBottomZero {
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.toast {
+  background-color: var(--accent);
+  height: 1rem;
+}

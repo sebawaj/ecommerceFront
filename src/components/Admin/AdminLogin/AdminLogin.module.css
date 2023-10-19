@@ -1,0 +1,33 @@
+#button {
+  background-color: var(--secondary);
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+#buttonFill {
+  background-color: var(--secondary);
+  border: none;
+}
+
+#button:hover {
+  background-color: var(--primary);
+}
+
+#content {
+  backdrop-filter: blur(4px);
+}
+
+.link {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: var(--accent);
+}
+
+#backgroundAdminLogin {
+  padding: 0;
+  background-image: url(/public/img/topBanner.jpg);
+  height: calc(100vh - 5rem);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}

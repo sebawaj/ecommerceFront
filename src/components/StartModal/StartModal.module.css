@@ -1,0 +1,35 @@
+#modal {
+  width: 45vw;
+  max-width: none;
+  margin-top: 5rem;
+}
+
+.btn {
+  background-color: var(--accent) !important;
+  border: var(--accent) !important;
+}
+
+.btn:hover {
+  background-color: #6a7163 !important;
+  border: #6a7163 !important;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link > p {
+  color: var(--accent) !important;
+}
+
+@media (max-width: 991.98px) {
+  #modal {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #modal {
+    width: 96vw;
+  }
+}

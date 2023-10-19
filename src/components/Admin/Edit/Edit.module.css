@@ -1,0 +1,32 @@
+#button {
+  background-color: var(--secondary);
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+#button:hover {
+  background-color: var(--primary);
+}
+
+#content {
+  backdrop-filter: blur(4px);
+  height: 90.9vh;
+}
+
+#background {
+  background-image: url(/public/img/topBanner.jpg);
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+.adminButton {
+  background-color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+
+.adminButton:hover {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}

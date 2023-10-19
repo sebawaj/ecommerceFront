@@ -1,0 +1,25 @@
+#text-footer {
+  margin-top: 1rem;
+  background-color: white;
+  font-size: small;
+}
+
+.socials > .bi {
+  margin-right: 2.2rem;
+  color: var(--accent);
+  font-size: large;
+}
+
+.green > li > i {
+  color: var(--accent);
+  font-size: medium;
+  padding-right: 0.5rem;
+}
+
+.linkStyle > li {
+  padding-bottom: 0.5rem;
+}
+.linkStyle > li > * {
+  color: var(--dark);
+  text-decoration: none;
+}
