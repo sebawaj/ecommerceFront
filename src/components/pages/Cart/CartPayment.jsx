@@ -57,7 +57,7 @@ function CartPayment() {
         <div className="container p-0">
           <div className="row g-5">
             <div className="col-12 d-lg-none mt-4 text-center text-sm-start">
-              <h1 className="fs-2">Manos Creativas - Tienda de Artesanias</h1>
+              <h1 className="fs-2">Atid Uniformes- Uniformes a medida</h1>
               <div className="fs-6 my-5">
                 <Link to="#" className="text-decoration-none text-dark">
                   Cart
@@ -72,7 +72,7 @@ function CartPayment() {
             </div>
             <div className="col-12 col-lg-7 py-5 order-1">
               <div className="d-none d-lg-block">
-                <h1 className="fs-2">Manos Creativas - Tienda de Artesanias</h1>
+                <h1 className="fs-2">Atid Uniformes- Uniformes a medida</h1>
                 <div className="fs-6 my-5">
                   <Link to="#" className="text-decoration-none text-dark">
                     Cart

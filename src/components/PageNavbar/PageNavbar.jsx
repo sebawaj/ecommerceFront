@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import logo from "./logo nuevo.png";
 
 function PageNavbar() {
   const [openNavbar, setOpenNavbar] = useState(false);
@@ -49,11 +50,7 @@ function PageNavbar() {
       >
         <Container id={css["mainBar"]} className={openNavbar ? css.open : css.close}>
           <Navbar.Brand as={Link} to={"/"} className="col-2 d-flex justify-content-center">
-            <img
-              src={`${process.env.REACT_APP_API_BASE_IMG_URL}/logo.png`}
-              alt="logo Manos Creativas"
-              className={`${css.navLogo}`}
-            />
+            <img src={logo} alt="logo Atid Uniformes" className={`${css.navLogo} mt-5`} />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"

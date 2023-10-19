@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import PageNavbar from "../../PageNavbar/PageNavbar";
 import Footer from "../../Footer/Footer";
 import { Link } from "react-router-dom";
+import logo from "../../../logo nuevo.png";
+import photo from "../../../Foto CV Baja.jpg";
 
 function SobreEsteProyecto() {
   return (
@@ -12,52 +14,17 @@ function SobreEsteProyecto() {
         <section className={`${css.darkSection} row m-0 px-5`}>
           <div className={`${css.profile} col-12 col-md-6 col-lg-4 align-items-center`}>
             <img
-              src={`${process.env.REACT_APP_API_BASE_IMG_URL}/Foto_Nico.png`}
+              src={photo}
               alt="Logo"
               className="w-50 ms-2 mb-4"
+              style={{ borderRadius: "50%" }}
             />
-            <h4>Nicolás Ross</h4>
+            <h4>Sebastián Wajshan</h4>
             <div className={css.icons}>
-              <a href="https://github.com/nicoroke" target="_blank" rel="noreferrer">
+              <a href="https://github.com/sebawaj" target="_blank" rel="noreferrer">
                 <i className={`${css.profileIcon} bi bi-github`}></i>
               </a>
-              <a
-                href="https://www.linkedin.com/in/nicol%C3%A1s-ross-kegel-1a968414b/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className={`${css.profileIcon} bi bi-linkedin`}></i>
-              </a>
-            </div>
-          </div>
-          <div className={`${css.profile} col-12 col-md-6 col-lg-4 align-items-center`}>
-            <img
-              src={`${process.env.REACT_APP_API_BASE_IMG_URL}/Foto_Kevin.png`}
-              alt="Logo"
-              className="w-50 ms-2 mb-4"
-            />
-            <h4>Kevin Lapizaga</h4>
-            <div className={css.icons}>
-              <a href="https://github.com/kevin4555" target="_blank">
-                <i className={`${css.profileIcon} bi bi-github`}></i>
-              </a>
-              <a href="https://linkedin.com/in/kevin-lapizaga/" target="_blank">
-                <i className={`${css.profileIcon} bi bi-linkedin`}></i>
-              </a>
-            </div>
-          </div>
-          <div className={`${css.profile} col-12 col-md-6 col-lg-4 align-items-center`}>
-            <img
-              src={`${process.env.REACT_APP_API_BASE_IMG_URL}/Foto_Maia.png`}
-              alt="Logo"
-              className="w-50 ms-2 mb-4"
-            />
-            <h4>Maia Chamorro</h4>
-            <div className={css.icons}>
-              <a href="https://github.com/lemilegram" target="_blank">
-                <i className={`${css.profileIcon} bi bi-github`}></i>
-              </a>
-              <a href="https://www.linkedin.com/in/maia-chamorro/" target="_blank">
+              <a href="www.linkedin.com/in/sebastian-wajshan" target="_blank" rel="noreferrer">
                 <i className={`${css.profileIcon} bi bi-linkedin`}></i>
               </a>
             </div>
@@ -71,14 +38,11 @@ function SobreEsteProyecto() {
           <div id={css["infoProyecto"]} className="col-md-9 col-lg-7 col-xl-6 col-xxl-5 mx-auto">
             <div className="d-flex flex-column flex-md-row align-items-center">
               <a href="https://ha.dev">
-                <img src="ha_logo.png" alt="" />
+                <img src="{../../../logo nuevo.png}" alt="" />
               </a>
               <p className="px-3">
-                Esto es <b>Manos Creativas</b>, un <b>eCommerce ficticio</b> realizado por 3
-                compañeros a lo largo de 3 semanas como proyecto final del{" "}
-                <b>Bootcamp de Hack Academy</b>. El Bootcamp de Full-Stack development de Hack
-                Academy es un curso
-                <b> intensivo</b> de 3 meses con una carga horaria de más de 600 horas.
+                Esto es <b>Atid Uniformes</b>, un <b>eCommerce </b> de una fabrica de confección
+                familiar con <b>más de 40 años en el rubro</b>.
               </p>
             </div>
           </div>

@@ -9,11 +9,10 @@ import Carousel from "react-bootstrap/Carousel";
 import Footer from "../../Footer/Footer";
 import Newsletter from "../../Newsletter/Newsletter";
 import Loading from "../../Loading/Loading";
-
-import StartModal from "../../StartModal/StartModal";
+import logo from "../../../logo nuevo.png";
 
 function Home({ showModal, setShowModal }) {
-  window.document.title = "Manos Creativas";
+  window.document.title = "Atid Uniformes";
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
   const [productsFromCategory1, setProductsFromCategory1] = useState([]);
@@ -100,7 +99,6 @@ function Home({ showModal, setShowModal }) {
   if (products.length > 0) {
     return (
       <>
-        <StartModal showModal={showModal} setShowModal={setShowModal} />
         <PageNavbar />
         <main>
           <Carousel className={css.carousel}>

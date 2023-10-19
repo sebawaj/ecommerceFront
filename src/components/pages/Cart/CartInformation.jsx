@@ -35,7 +35,7 @@ function CartInformation() {
         <div className="container">
           <div className="row">
             <div className="col-12 d-lg-none mt-4 text-center text-sm-start">
-              <h1 className="fs-2">Manos Creativas - Tienda de Artesanias</h1>
+              <h1 className="fs-2">Atid Uniformes- Confeccion a medida</h1>
               <div>
                 <h2 className="fs-4">Informacón de contacto</h2>
                 <div className="my-4 mb-4">
@@ -54,7 +54,7 @@ function CartInformation() {
 
             <div className="col-12 col-lg-7 py-5 order-1">
               <div className="d-none d-lg-block">
-                <h1 className="fs-2">Manos Creativas - Tienda de Artesanias</h1>
+                <h1 className="fs-2">Atid Uniformes - Confeccion de uniformes a medida</h1>
                 <div>
                   <h2 className="fs-4">Información de contacto</h2>
                   <div className="my-4 mb-4">

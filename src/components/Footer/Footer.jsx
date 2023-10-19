@@ -1,5 +1,6 @@
 import css from "./Footer.module.css";
 import { Link } from "react-router-dom";
+import logo from "../../logo nuevo.png";
 
 function Footer() {
   return (
@@ -8,26 +9,17 @@ function Footer() {
         <nav className="row">
           <div className="col-2 d-none d-md-block"></div>
           <div className="col-12 col-md-4">
-            <img
-              src={`${process.env.REACT_APP_API_BASE_IMG_URL}/logo.png`}
-              alt="Logo"
-              className="w-50 ms-2"
-            />
-            <div className={`${css.socials} ms-4`}>
-              <i className={`bi bi-instagram ${css.bi}`} />
-              <i className={`bi bi-facebook ${css.bi}`} />
-              <i className={`bi bi-twitter ${css.bi}`} />
-              <i className={`bi bi-youtube ${css.bi}`} />
-            </div>
+            <img src={logo} alt="Logo" className="w-50 ms-2" />
+
             <ul className={`list-unstyled ${css.green} ms-4 mt-2`}>
               <li>
-                <i className="bi bi-geo-alt"></i> Manos Creativas 123, Montevideo, Uruguay
+                <i className="bi bi-geo-alt"></i> Rodano 3373, Montevideo, Uruguay
               </li>
               <li>
-                <i className="bi bi-telephone"></i> +59898123456
+                <i className="bi bi-telephone"></i> +598 99 61 85 63
               </li>
               <li>
-                <i className="bi bi-envelope"></i> manoscreativas.ha@gmail.com
+                <i className="bi bi-envelope"></i> atiduniformesuy@gmail.com
               </li>
             </ul>
           </div>
@@ -37,33 +29,43 @@ function Footer() {
             <ul className={`list-unstyled ${css.linkStyle}`}>
               <li>
                 <Link>
-                  <i className="bi bi-arrow-right-short"></i>Cerámicas
+                  <i className="bi bi-arrow-right-short"></i>Camisas
                 </Link>
               </li>
               <li>
                 <Link>
-                  <i className="bi bi-arrow-right-short"></i>Pinturas
+                  <i className="bi bi-arrow-right-short"></i>Pantalones
                 </Link>
               </li>
               <li>
                 <Link>
-                  <i className="bi bi-arrow-right-short"></i>Maderas
+                  <i className="bi bi-arrow-right-short"></i>Remeras
                 </Link>
               </li>
               <li>
                 <Link>
-                  <i className="bi bi-arrow-right-short"></i>Tejidos
+                  <i className="bi bi-arrow-right-short"></i>Camperas
                 </Link>
               </li>
               <li>
                 <Link>
-                  <i className="bi bi-arrow-right-short"></i>Decoraciones
+                  <i className="bi bi-arrow-right-short"></i>Buzos
+                </Link>
+              </li>
+              <li>
+                <Link>
+                  <i className="bi bi-arrow-right-short"></i>Mamelucos
+                </Link>
+              </li>
+              <li>
+                <Link>
+                  <i className="bi bi-arrow-right-short"></i>Otros
                 </Link>
               </li>
             </ul>
           </div>
           <div className="container">
-            <p className="text-center border-top pt-2 mt-2">© 2023, Manos Creativas</p>
+            <p className="text-center border-top pt-2 mt-2">© 2023, Atid Uniformes</p>
           </div>
         </nav>
       </footer>

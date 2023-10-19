@@ -8,10 +8,9 @@ import Carousel from "react-bootstrap/Carousel";
 import Footer from "../../components/Footer/Footer";
 import Newsletter from "../../components/Newsletter/Newsletter";
 import Loading from "../../components/Loading/Loading";
-import StartModal from "../../components/StartModal/StartModal";
 
 function Products({ showModal, setShowModal }) {
-  window.document.title = "Manos Creativas";
+  window.document.title = "Atid Uniformes";
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
   const [productsFromCategory1, setProductsFromCategory1] = useState([]);
@@ -99,7 +98,6 @@ function Products({ showModal, setShowModal }) {
   if (products.length > 0) {
     return (
       <>
-        <StartModal showModal={showModal} setShowModal={setShowModal} />
         <PageNavbar />
         <main>
           <Carousel className={css.carousel}>
@@ -112,7 +110,7 @@ function Products({ showModal, setShowModal }) {
               />
               <Carousel.Caption className={css.carouselCaption}>
                 <p>Lo más vendido</p>
-                <h2>Colección Madera Moderna</h2>
+                <h2>Pantalones Cargo</h2>
                 <button className={`btn ${css.bannerBtn}`}>Comprar ahora</button>
               </Carousel.Caption>
             </Carousel.Item>
